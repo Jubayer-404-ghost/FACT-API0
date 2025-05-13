@@ -4,7 +4,7 @@ const fs = require("fs");
 
 const app = express();
 
-app.get("/video", (req, res) => {
+app.get("/fact", (req, res) => {
   const videoFilePath = path.join(__dirname, "video.json");
 
   fs.readFile(videoFilePath, "utf8", (err, videoData) => {
@@ -28,7 +28,7 @@ app.get("/video", (req, res) => {
 
       const response = {
         status: "success",
-        url: ❏ আচ্ছা আপনি কি এনা জানেন? ❑\n\n➪ যে ${randomVideo} ❞\n\n𝗔𝗨𝗧𝗛𝗢𝗥 : 🎀 𝗝𝗨𝗕𝗔𝗬𝗘𝗥 🎀,
+        url: randomVideo,
         author: {
           Name: "Jubayer",
           Facebook: "https://www.facebook.com/profile.php?id=61573052122735"
