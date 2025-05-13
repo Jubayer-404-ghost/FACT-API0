@@ -28,10 +28,10 @@ app.get("/video", (req, res) => {
 
       const response = {
         status: "success",
-        url: randomVideo,
+        url: ❏ আচ্ছা আপনি কি এনা জানেন? ❑\n\n➪ যে ${randomVideo} ❞\n\n𝗔𝗨𝗧𝗛𝗢𝗥 : 🎀 𝗝𝗨𝗕𝗔𝗬𝗘𝗥 🎀,
         author: {
-          Name: "MR᭄﹅ MAHABUB﹅ メꪜ",
-          Facebook: "https://www.facebook.com/www.xnxx.com140"
+          Name: "Jubayer",
+          Facebook: "https://www.facebook.com/profile.php?id=61573052122735"
         }
       };
 
